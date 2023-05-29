@@ -1,0 +1,12 @@
+Questions:
+
+1) create_router.js and server.js together
+2) The client is responsible for everything at port:3000 which is both presenting the data and taking inputs. The server is responsible for everything at port:9000 which is storing the data and passing it to the client side for presentation
+3) server.js is responsible for defining the server
+4) gamesRouter is responsible for defining the RESTful routes that can accept HTTP requests at the server-side and linking the server to the database
+5) HTTP requests
+6) fetch can take an object as the 2nd parameter allowing us, in this app, to change the type of HTTP request we are sending
+7) GET, POST, DELETE
+8) The MongoDB Driver is what allows us to connect to and interact with the database
+
+Extension: ObjectID is what allows us to convert the string of id from the params into a number that matches what is in the database.
